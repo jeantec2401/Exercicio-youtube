@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Instrument+Sans:wght@600&family=Outfit:wght@400;700&family=Poppins:wght@200;500;700&family=Public+Sans&family=Roboto:wght@300;400;500;700;900&display=swap');
+h2{
+    font-family: 'roboto';
+    width: 543px;
+    margin-top: 7px;   
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 700;    
+}
+
+h4{
+    font-family: 'Roboto';
+    margin-top: 7px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: 300;    
+}
+
+p{
+    font-family: 'Roboto';
+    margin-top: 7px;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+img{
+    width: 101px;
+    height: 71px;
+}
+
+.propaganda:hover,
+.img1:hover,
+.img2:hover,
+.img3:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.logo:hover{
+    transform: scale(1.25);
+    cursor: pointer;
+}
+
+.containerd a{
+    color: black;
+    text-decoration: none;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-column-gap: 15px;
+    color: black;
+    background-color: white;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-video{
+    align-items: flex-start;
+    background-color:white;
+    width:543px;    
+    margin-top: 38px;
+    margin-left: 35px;
+}
+
+.containerd{
+    display: grid;
+    margin-top: 38px;
+    margin-right: 38px; 
+    width: 270px;
+    grid-template-columns: 105px 165px;
+    grid-template-rows: repeat(20, 17.75px);
+    background-color:white;
+}
+
+.propaganda{
+    grid-area: 1/1/5/3;
+   
+}
+
+.propaganda img{
+    border-radius: 5px;
+    width: 270px;
+    height: 56px;
+}
+
+.titulo1, .titulo2, .titulo3{
+    font-family: 'Roboto', monospace;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.nome1,.nome2,.nome3{
+    font-family: 'Roboto', monospace;
+    font-size: 11px;
+    font-weight: 300;
+}
+
+.logo{
+    width: 16px;
+    height: 16px;
+    border-radius: 15px;
+    
+}
+.img1{
+    width: 101px;
+    height: 71;
+    grid-area: 5/1/9/1;
+}
+
+.titulo1{   
+    grid-area: 5/2/6/3;
+}
+
+.nome1{
+    grid-area: 6/2/9/3;
+}
+
+.nome1{
+    text-decoration: none;
+}
+.img2{
+    grid-area: 10/1/16/1;
+}
+
+.titulo2{
+    grid-area: 10/2/12/3;
+}
+
+.nome2{
+    grid-area: 11/2/15/3;
+}
+
+.img3{
+    grid-area: 15/1/19/1;
+}
+
+.titulo3{
+    grid-area: 15/2/15/3;
+}
+
+.nome3{
+    grid-area: 16/2/19/3;
+}
+
